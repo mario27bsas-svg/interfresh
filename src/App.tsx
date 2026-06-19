@@ -13,7 +13,6 @@ import ServicesInfo from './components/ServicesInfo';
 import QuoteForm from './components/QuoteForm';
 import TrackPage from './components/TrackPage';
 import ContactForm from './components/ContactForm';
-import WordPressExport from './components/WordPressExport';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('inicio');
