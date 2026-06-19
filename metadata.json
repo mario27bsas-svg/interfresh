@@ -1,0 +1,6 @@
+{
+  "name": "Interfresh Cargo",
+  "description": "Plataforma de servicios de transporte y logística global, con cotizador inteligente de fletes internacionales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
