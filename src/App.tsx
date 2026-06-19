@@ -172,7 +172,7 @@ export default function App() {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="w-3.5 h-3.5 text-secondary-container" />
-                  <span>cotizaciones@interfreshcargo.com</span>
+                  <span>info@interfreshcargo.com</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="w-3.5 h-3.5 text-secondary-container" />
