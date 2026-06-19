@@ -124,7 +124,7 @@ export default function LandingPage({ onTabChange, onOpenQuote }: LandingPagePro
       </section>
 
       {/* 3. Barra de confianza / Metrics */}
-      <section className="relative z-20 -mt-16 max-w-6xl mx-auto w-full px-4 md:px-6">
+      <section className="relative z-20 -mt-10 max-w-6xl mx-auto w-full px-4 md:px-6">
         <motion.div 
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
