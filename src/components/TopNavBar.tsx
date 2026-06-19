@@ -76,10 +76,7 @@ export default function TopNavBar({ activeTab, onTabChange, onOpenQuote }: TopNa
 
         {/* Action Button & Contact Info */}
         <div className="hidden md:flex items-center gap-6">
-          <div className="flex items-center gap-2 text-on-surface-variant font-mono text-sm border-r border-outline-variant pr-6">
-            <Phone className="w-4 h-4 text-secondary" />
-            <span className="font-semibold">+54 9 11 1234-5678</span>
-          </div>
+          
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
