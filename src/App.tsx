@@ -94,10 +94,6 @@ export default function App() {
             {activeTab === 'contacto' && (
               <ContactForm />
             )}
-
-            {activeTab === 'wordpress' && (
-              <WordPressExport />
-            )}
           </motion.div>
         </AnimatePresence>
       </main>

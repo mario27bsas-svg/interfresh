@@ -1,5 +1,6 @@
 import { Ship, Plane, Truck, FileText, Warehouse, ShieldCheck, HelpCircle, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
+import FAQSection from './FAQSection';
 
 export default function ServicesInfo({ onOpenQuote }: { onOpenQuote: () => void }) {
   const list = [
@@ -91,6 +92,9 @@ export default function ServicesInfo({ onOpenQuote }: { onOpenQuote: () => void 
           Iniciar Cotización de Fletes
         </button>
       </div>
+
+      {/* Interactive FAQ Accordion Section */}
+      <FAQSection />
 
     </div>
   );

@@ -88,7 +88,7 @@ export default function LandingPage({ onTabChange, onOpenQuote }: LandingPagePro
             transition={{ duration: 0.6, delay: 0.15 }}
             className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-white max-w-5xl tracking-tight leading-tight md:leading-none mb-6 drop-shadow-xl"
           >
-            Tu carga, en cualquier parte del mundo, <span className="text-secondary-container underline decoration-wavy decoration-2">sin complicaciones</span>
+            Tu carga, en cualquier parte del mundo, <span className="text-secondary-container decoration-2">sin complicaciones</span>
           </motion.h1>
 
           <motion.p 
