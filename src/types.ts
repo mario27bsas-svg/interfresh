@@ -2,7 +2,7 @@ export type CargoType = 'general' | 'perecedera' | 'peligrosa' | 'sobredimension
 
 export type DeliverySpeed = 'estandar' | 'express' | 'priority';
 
-export type ActiveTab = 'inicio' | 'empresa' | 'servicios' | 'clientes' | 'contacto' | 'cotizador' | 'rastreo' | 'wordpress';
+export type ActiveTab = 'inicio' | 'empresa' | 'servicios' | 'clientes' | 'contacto' | 'cotizador' | 'rastreo' ;
 
 export interface RouteInfo {
   city: string;

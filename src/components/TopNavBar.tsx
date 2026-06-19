@@ -18,7 +18,6 @@ export default function TopNavBar({ activeTab, onTabChange, onOpenQuote }: TopNa
     { id: 'servicios', label: 'Servicios' },
     { id: 'rastreo', label: 'Rastreo de Envíos' },
     { id: 'contacto', label: 'Contacto' },
-    { id: 'wordpress', label: 'Exportar a WordPress' },
   ];
 
   const handleLinkClick = (tabId: ActiveTab) => {
