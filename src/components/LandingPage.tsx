@@ -567,7 +567,7 @@ export default function LandingPage({ onTabChange, onOpenQuote }: LandingPagePro
                 <Mail className="w-5 h-5 text-secondary-container" />
                 <div>
                   <div className="text-xs text-primary-container font-semibold font-mono">E-MAIL DIRECTO</div>
-                  <div className="font-semibold text-white">cotizaciones@interfreshcargo.com</div>
+                  <div className="font-semibold text-white">info@interfreshcargo.com</div>
                 </div>
               </div>
 
@@ -575,7 +575,7 @@ export default function LandingPage({ onTabChange, onOpenQuote }: LandingPagePro
                 <MapPin className="w-5 h-5 text-secondary-container" />
                 <div>
                   <div className="text-xs text-primary-container font-semibold font-mono">SEDE CENTRAL</div>
-                  <div className="font-semibold text-white">Buenos Aires, Argentina (Headquarters)</div>
+                  <div className="font-semibold text-white">Buenos Aires, Argentina</div>
                 </div>
               </div>
             </div>
