@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Phone, Anchor, ArrowRight } from 'lucide-react';
+import { Menu, X, Phone, Anchor, Plane, ArrowRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ActiveTab } from '../types';
 
@@ -35,7 +35,7 @@ export default function TopNavBar({ activeTab, onTabChange, onOpenQuote }: TopNa
           id="nav-logo"
         >
           <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white transition-all duration-300 group-hover:scale-105 group-hover:bg-secondary">
-            <Anchor className="w-6 h-6 animate-pulse" />
+            <Plane className="w-6 h-6 animate-pulse" />
           </div>
           <div className="flex flex-col">
             <span className="font-display text-xl font-bold text-primary tracking-tight leading-none">

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Anchor, Phone, Mail, MapPin, Globe, ArrowRight, ShieldCheck, Ship, MessageSquare } from 'lucide-react';
+import { Anchor, Plane, Phone, Mail, MapPin, Globe, ArrowRight, ShieldCheck, Ship, MessageSquare } from 'lucide-react';
 
 // Type definitions
 import { ActiveTab, QuoteRequest } from './types';
@@ -107,7 +107,7 @@ export default function App() {
             <div className="flex flex-col gap-4">
               <div className="flex items-center gap-2">
                 <div className="w-9 h-9 bg-secondary rounded-lg flex items-center justify-center text-white">
-                  <Anchor className="w-5 h-5" />
+                  <Plane className="w-5 h-5" />
                 </div>
                 <span className="font-display text-lg font-bold tracking-tight text-white">
                   Interfresh Cargo
